@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+    border-spacing: 0;
+    tr {
+        height: 2.2rem;
+        line-height: 2.2rem;
+        font-size: 1rem;
+    }
+    thead {
+        background: #d3d3d3;
+        tr {
+            font-weight: bold;
+        }
+    }
+}

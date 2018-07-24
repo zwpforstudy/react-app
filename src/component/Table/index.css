@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+  border-spacing: 0; }
+  table tr {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    font-size: 1rem; }
+  table thead {
+    background: #d3d3d3; }
+    table thead tr {
+      font-weight: bold; }
