@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Table from './component/Table'
+import Table from './component/Table';
+import Calculator from './component/Calculator';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         {!!tableBodyData.length && <Table tableHeadData={tableHeadData} tableBodyData={tableBodyData}/>}
+        <Calculator />
       </div>
     );
   }
